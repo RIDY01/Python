@@ -1,11 +1,12 @@
-#library deklarieren
+#libraries
 import time
 import random
 
-#Ausgabe in der Konsole
+#output
 print("Python learning script")
 print("-----------------------------")
 
+#functions
 def getAge():
     age = input("What is your age?: ")
 
@@ -67,5 +68,7 @@ def end():
     print("You lucky dog. Goodbye.")
     input("Press enter to exit")
 
+
+#start
 getAge()
 end()
