@@ -33,7 +33,7 @@ def favNumber(age):
     print("Your favorite number is " + str(favNumber))
     print("-----------------------------")
     print("Lets play a quick game:")
-    ranNum = random.randint(1,20)
+    ranNum = random.randint(0,20)
     game(ranNum)
 
 
