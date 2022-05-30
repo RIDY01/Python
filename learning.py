@@ -14,9 +14,9 @@ def getAge():
          print("Your age is " + age)
 
          if int(age) < 18:
-            print("kiddy btw")
+            print("underage)
          else:
-            print("Are you for real that old? bruh.")
+            print("adult")
 
          favNumber(age)
     else:
@@ -51,10 +51,10 @@ def game(ranNum):
 
             if iptNr.isdigit():
                 if int(iptNr) < 0 or int(iptNr) > 20:
-                    print("Bro this is not a number between 0 and 20, try again: ")
+                    print("Please try again: ")
 
                 else:
-                    print("Noob, wrong number. try again: ")
+                    print("Wrong number. try again: ")
 
             else:
                 print("Please enter a number between 0 and 20!!")
@@ -65,7 +65,7 @@ def game(ranNum):
 
 def end():
     print("")
-    print("You lucky dog. Goodbye.")
+    print("You won. Goodbye.")
     input("Press enter to exit")
 
 
