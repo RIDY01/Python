@@ -1,2 +1,2 @@
 # Python
-My python scripts that I use for learning python.
+My python scripts that I develop while I'm learning Python3.
